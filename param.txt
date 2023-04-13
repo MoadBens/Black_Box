@@ -1,0 +1,39 @@
+DIMENSION      5             
+
+BB_EXE         Projet3.exe    
+BB_OUTPUT_TYPE OBJ PB   
+                              	
+
+
+
+
+
+
+
+
+X0             ( 0 0 0 0 0 )  # starting point
+
+LOWER_BOUND    * 0           
+UPPER_BOUND    ( 160 160 160 160 160 ) 
+                              
+
+MAX_BB_EVAL    1500           
+
+
+
+
+
+
+# TMP_DIR        /tmp        
+
+
+
+
+
+
+DISPLAY_DEGREE 2
+
+DISPLAY_STATS BBE ( SOL ) OBJ # Display the number of evaluation (BBE),
+							  # the current solution ( SOL ) and the objective
+
+STATS_FILE test.txt BBE ( SOL ) OBJ
